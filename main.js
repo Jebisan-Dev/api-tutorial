@@ -1,7 +1,7 @@
 import express from "express";
 
-const app = express()
-const PORT = 1348
+const app = express();
+const PORT = 1348;
 
 app.get('/', (req, res) => {
     res.json({ msg: "Hello Everyone" })
